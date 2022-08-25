@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Right Survey Form</title>
+</head>
+
+<body>
+  <audio autoplay controls>
+    <source src="/Caique/Survey Form/Audio/WhatsApp Audio 2022-08-23 at 18.59.12.mpeg" type="audio/mpeg">
+  </audio>
+  <h1 id="title">Right Survey Form</h1>
+  <p id="description"> <i>Help us to make the difference</i></p>
+
+  <form id="survey-form" action="#">
+    <fieldset>
+
+      <label id="name-label">Name <br>
+        <input type="text" id="name" placeholder="Enter your name" name="user-name" required>
+      </label>
+
+      <label id="email-label">Email <br>
+        <input type="email" id="email" placeholder="Enter your email" name="user-email" required>
+      </label>
+
+      <label id="number-label">Age (optional)
+        <input type="number" id="number" min="16" max="120" pattern="[0-9]{2,}" placeholder="Set your age" name="user-age">
+      </label>
+
+      <label>Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">(select current role)</option>
+          <option value="1">Student</option>
+          <option value="2">Full time job</option>
+          <option value="3">Full time learner</option>
+          <option value="4">Prefer not to say</option>
+          <option value="5">Other</option>
+        </select>
+        <hr>
+    </fieldset>
+
+    <fieldset>
+
+      <label>Would you recommend this website to a friend?</label>
+
+      <label><input type="radio" name="recommend-type" checked>Definitely</input></label>
+      <label><input type="radio" name="recommend-type">Maybe</input></label>
+      <label><input type="radio" name="recommend-type">Not sure</label>
+
+      <label>Which area do you want to follow?
+
+        <select id="dropdown">
+          <option value="">(select an option)</option>
+          <option value="1">Front-end</option>
+          <option value="2">Back-end</option>
+          <option value="3">Quality Assurance</option>
+          <option value="4">Fullstack</option>
+        </select>
+    
+      </label>
+
+      <label for="checkbox">What do you like to do?</label>
+
+      <label><input type="checkbox" id="checkbox" name="check-cake" value="1">Cake</input>
+      </label>
+
+      <label><input type="checkbox" id="checkbox" name="check-computer" value="2">Computer</label>
+    
+      <label><input type="checkbox" id="checkbox" name="check-world" value="3">New World</label>
+    
+      <label><input type="checkbox" id="checkbox" name="check-game" value="4">Game</label>
+    
+      <label><input type="checkbox" id="checkbox" name="check-website" value="5">Web Site</label>
+      <hr>
+    </fieldset>
+    <fieldset>
+      <label>Any comments or suggestions?</label>
+      <textarea placeholder="Your description..." rows="5" cols="60"></textarea>
+    </fieldset>
+
+    <input type="submit" value="Submit" id="submit">
+
+  </form>
+</body>
+
+</html>

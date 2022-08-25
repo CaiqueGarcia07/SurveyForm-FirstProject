@@ -1,0 +1,103 @@
+body {
+    background-image: url("../Imagens/10981844.jpg") ;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: Silkscreen, Tahoma;
+    color: #ff90ff;
+    text-shadow: -3px 2px 2px #000;
+    background-size: 100vw 100%;   
+}
+
+    /** FORMULÁRIO **/
+
+form {
+    background-color: #0a0a3bdf;
+    border-radius: 5px;
+    border: 9px double #0f0f0f;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 500px;
+    box-shadow: -15px 20px 5px 9px #000000ce;
+    background: linear-gradient(to top  right, #0f0f5f, #0f1f5f, #df33ff);
+    box-sizing: border-box;
+    
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 17px;
+}
+
+fieldset {
+    color: white;
+    border: none;
+    display: block;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+label input {
+    width: 100%;
+    background: linear-gradient(to right, #df33ff, #cf5aaf, #0f0f5f);
+    font-family: Silkscreen, Tahoma;
+
+}
+
+input[type="radio"] {
+    width: 30px;
+    margin: 0;
+}
+
+::-webkit-input-placeholder {
+    background-color: #00002b;
+    color: #ff90ffaf;
+    font-family: Silkscreen, Tahoma;
+    height: 100%;
+}
+
+textarea{
+    width: 100%;
+    background: linear-gradient(to right, #df33ff, #cf5aaf, #0f0f5f);
+    height: 50px;
+    max-height: 100px;
+    min-height: 50px;
+    max-width: 450px;
+    min-width: 450px;
+    font-family: Silkscreen, Tahoma;
+}
+select{
+    width: 100%;
+    font-family: Silkscreen, Tahoma;
+    background: linear-gradient(to right, #df33ff, #cf5aaf, #0f0f5f);
+    background-color:#00002b;
+    color: white;
+    border: 1px solid #000;
+    box-shadow: -2px 2px 5px 2px #000;
+}
+hr{
+    padding: 2px;
+    background-image: linear-gradient(to left, #0f0f5f, #0f1f5f, #df33ff);
+    margin-top: 5%; 
+    box-shadow: -2px 2px 3px 4px #000
+}
+#checkbox{
+    width: auto;
+    height: auto;
+}
+
+/** BOTÃO  DE ENVIAR **/
+
+input[type="submit"]{
+    width: 95%;
+    padding: 5px;
+    font-family: Silkscreen;
+    background: linear-gradient(to right, #df33ff, #cf5aaf, #0f0f5f);
+    box-shadow: -2px 2px 2px #000;
+    margin: 0 13px 13px 13px;
+}
